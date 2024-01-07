@@ -30,6 +30,7 @@ function App() {
     <div className="App">
       <div className='calculator-container'>
         <Output input={input}/>
+        <br/>
         <div className='row'>
           <Button manageClick={addInput}>1</Button>
           <Button manageClick={addInput}>2</Button>
